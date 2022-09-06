@@ -4,6 +4,8 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/access/Ownalbe.sol";
+//import "@klaytn/contracts/token/KIP17/KIP17Full.sol";
+//import "@klaytn/contracts/ownership/Ownable.sol";
 
 contract MintGemToken is ERC721Enumerable , Ownable{
     uint constant public MAX_TOKEN_COUNT = 20;
